@@ -20,6 +20,7 @@ hexButton.addEventListener("click", () => {
 
 colorButton.addEventListener("click", () => {
   let color = colorArray[randomizeNumber(colorArray)];
-  colorTextField.innerHTML = color;
+  let capitalize = color.charAt(0).toUpperCase() + color.slice(1);
+  colorTextField.innerHTML = capitalize;
   document.body.style.background = color;
 });
