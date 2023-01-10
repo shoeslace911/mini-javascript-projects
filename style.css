@@ -8,5 +8,8 @@
   flex-direction: column;
   justify-content: center;
 }
+.buttons-container {
+  flex-direction: row;
+}
 #colorChangeButton {
 }
